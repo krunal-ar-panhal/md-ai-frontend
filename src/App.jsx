@@ -8,6 +8,7 @@ import Footer from "./Components/Footer";
 import CategoryPage from "./Pages/CategoryPage";
 import Search from "./Pages/Search";
 import ShopPage from "./Pages/ShopPage";
+import SignleProduct from "./Pages/SignleProduct";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/categories/:categoryName" element={<CategoryPage />} />
           <Route path="/search" element={<Search />} />
           <Route path="/shop" element={<ShopPage />} />
+          <Route path="/shop/:id" element={<SignleProduct />} />
         </Routes>
       <Footer/>
       </BrowserRouter>
