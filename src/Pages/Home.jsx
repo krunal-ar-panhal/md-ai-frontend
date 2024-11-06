@@ -5,6 +5,7 @@ import HeroSection from './HeroSection'
 import TrendingProducts from './TrendingProducts'
 import DealSection from './DealSection'
 import PromoBanner from './PromoBanner'
+import Blogs from './Blogs'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <TrendingProducts/>
       <DealSection/>
       <PromoBanner/>
+      <Blogs/>
     </div>
   )
 }
