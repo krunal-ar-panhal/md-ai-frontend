@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import CategoryPage from "./Pages/CategoryPage";
 import Search from "./Pages/Search";
+import ShopPage from "./Pages/ShopPage";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/categories/:categoryName" element={<CategoryPage />} />
           <Route path="/search" element={<Search />} />
+          <Route path="/shop" element={<ShopPage />} />
         </Routes>
       <Footer/>
       </BrowserRouter>
