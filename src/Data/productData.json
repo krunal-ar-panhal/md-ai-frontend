@@ -23,7 +23,7 @@
       "rating": 4.0
     },
     {
-      "id": 3,
+      "_id": 3,
       "name": "Gold Necklace",
       "category": "jewellery",
       "description": "Exquisite gold necklace with intricate design.",
