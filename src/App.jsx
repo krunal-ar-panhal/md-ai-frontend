@@ -9,6 +9,8 @@ import CategoryPage from "./Pages/CategoryPage";
 import Search from "./Pages/Search";
 import ShopPage from "./Pages/ShopPage";
 import SignleProduct from "./Pages/SignleProduct";
+import Login from "./Pages/Login";
+import Signup from "./Pages/Signup";
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
           <Route path="/search" element={<Search />} />
           <Route path="/shop" element={<ShopPage />} />
           <Route path="/shop/:id" element={<SignleProduct />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
         </Routes>
       <Footer/>
       </BrowserRouter>
